@@ -43,7 +43,7 @@ func PointList(count int) []int {
 
 	_points = _points[:_slice]
 
-	if count < 25 {
+	if count < 20 {
 		_points = _points[1:]
 	}
 
